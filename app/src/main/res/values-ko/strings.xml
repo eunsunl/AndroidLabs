@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Lab2</string>
+    <string name="lookatgui">나의 GUI를 보세요</string>
+    <string name="clickhere">누르세요</string>
+    <string name="checkthisout">체크하세요!</string>
+    <string name="switchonoff">스위치 On/Off</string>
+    <string name="typehere">여기에 입력하세요</string>
+</resources>

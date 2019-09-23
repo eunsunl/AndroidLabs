@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lookatgui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:text="@string/lookatgui">
+    </TextView>
+
+    <Button
+        android:id="@+id/clickhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lookatgui"
+        android:layout_alignParentLeft="true"
+        android:text="@string/clickhere">
+    </Button>
+    <CheckBox
+        android:id="@+id/checkthisout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lookatgui"
+        android:layout_toEndOf="@id/clickhere"
+        android:layout_toRightOf="@id/clickhere"
+        android:layout_alignParentRight="true"
+        android:text="@string/checkthisout">
+    </CheckBox>
+
+    <ImageButton
+        android:id="@+id/flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clickhere"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/flag">
+    </ImageButton>
+    <Switch
+        android:id="@+id/switchonoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clickhere"
+        android:layout_toEndOf="@id/flag"
+        android:layout_toRightOf="@id/flag"
+        android:layout_alignParentRight="true"
+        android:text="@string/switchonoff">
+    </Switch>
+
+    <EditText
+        android:id="@+id/typehere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flag"
+        android:layout_alignParentLeft="true"
+        android:inputType="textPersonName"
+        android:hint="@string/typehere">
+    </EditText>
+
+</RelativeLayout>
